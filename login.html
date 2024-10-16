@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            LOG IN
+        </title>
+        <!-- css link-->
+        <LINK REL="STYLESHEET" HREF="login.css">
+        <!--google font link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+        rel="stylesheet">
+        <link rel="shortcut icon" href="Wildvine/favicon.svg">
+
+        </head>
+    <body>
+        
+        <!--ionicon link-->
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <!--javascript link-->
+        
+
+        <NAV CLASS="NAVBAR">
+            <DIV CLASS="LOGO">
+                <I CLASS="FA-SOLID FA-FONT-AWESOME"></I>
+                <A HREF="index.html">HUMANITY WITHOUT LIMITS</A>
+
+
+            </DIV>
+            <DIV CLASS="MENU">
+                <DIV CLASS="MENU-LINKS">
+                    <UL>
+                        <LI><A HREF="index.html">HOME</A></LI>
+                        <LI><A HREF="about-us.html">ABOUT US</A></LI>
+                        <LI><A HREF="campaigns.html">OUR CAMPAIGNS</A></LI>
+                        <LI><A HREF="contactus.html">CONTACT US</A></LI>
+                        <LI><A HREF="donate.html">DONATE</A></LI>
+                    </UL>
+                </DIV>
+                <a href="login.html"><BUTTON CLASS="LOG-IN">LOG IN</BUTTON></a>
+
+            </DIV>
+            <DIV CLASS="MENU-BTN">
+                <I CLASS="FA-SOLID FA-BARS">
+                </I>
+            </DIV> 
+        </NAV>
+        <main>
+            <article>
+                <section class="login2">
+                    <div class="login-container">
+                        <div class="login-form" id="loginform">
+                            <h1>sign in</h1>
+                            <div class="social-icons">
+                                <a href="#" class="icon"><i class='bx bxl-google'></i></a>
+                                <a href="#" class="icon"><i class='bx bxl-instagram'></i></a>
+                                <a href="#" class="icon"><i class='bx bxl-github'></i></a>
+                                <a href="#" class="icon"><i class='bx bxl-linkedin'></i></a>
+                            </div>
+                            <div class="form-message-container">
+                                <span> use your email and password</span>
+                            </div>
+
+                            <form>
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Password">
+                                <button>Sign In</button>
+                                <a href="#">Forgot Your Password?</a>
+                            </form>
+                            <pre><p>Dont have an account?<a href="#" id="showsignupbtn"> Sign Up</a></p></pre>
+                        </div>
+
+                        <div class="signup-form hidden" id="signupform">
+                            <h1>Create an account</h1>
+                            <div class="social-icons">
+                                <a href="#" class="icon"><i class='bx bxl-google'></i></a>
+                                <a href="#" class="icon"><i class='bx bxl-instagram'></i></a>
+                                <a href="#" class="icon"><i class='bx bxl-github'></i></a>
+                                <a href="#" class="icon"><i class='bx bxl-linkedin'></i></a>
+                            </div>
+                            <div class="form-message-container">
+                                <span>or use your email for registeration</span>
+                            </div>
+
+                            <form>
+                                <input type="text" placeholder="Name">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Password">
+                                <button>Sign Up</button>
+                            </form>
+
+                            <p>already have an account? <a href="#" id="showloginbtn">Sign In</a></p>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
